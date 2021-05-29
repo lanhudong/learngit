@@ -14,3 +14,15 @@
 
 6、删除文件：`rm <文件名>`，tips：*从来没有被添加到版本库就被删除的文件，是无法恢复的！*
 
+7、关联和删除远程库
+
+ - 关联远程库：`git remote add origin git@server-name:path/repo-name.git`
+
+   比如说我要关联我的一个github中的一个仓库：`git remote add origin git@github.com:alandiy/learngit.git`
+
+- github远程库推送与修改：关联一个远程库时必须给远程库指定一个名字，`origin`是默认习惯命名。关联后，使用命令`git push -u origin master`第一次推送master分支的所有内容；此后，每次本地提交后，只要有必要，就可以使用命令`git push origin master`推送最新修改
+
+- 删除远程库与本地连接：` git remote rm origin` ，origin是一般远程库默认名称
+
+8、克隆`github仓库`：git clone
+
