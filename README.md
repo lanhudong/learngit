@@ -1,3 +1,7 @@
+## 简单的Git使用教程
+
+---
+
 **1、添加文件**（把文件添加进去，实际上就是把文件修改添加到暂存区）： `git add`
 
 **2、上传文件**（提交更改，实际上就是把暂存区的所有内容提交到当前分支）：`git commit`
@@ -47,3 +51,9 @@
 - 在本地创建和远程分支对应的分支，使用`git checkout -b branch-name origin/branch-name`，本地和远程分支的名称最好一致；
 - 建立本地分支和远程分支的关联，使用`git branch --set-upstream branch-name origin/branch-name`；
 - 从远程抓取分支，使用`git pull`，如果有冲突，要先处理冲突
+
+
+
+---
+
+> 以上学习内容参考-https://www.liaoxuefeng.com/wiki/896043488029600
