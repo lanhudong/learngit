@@ -52,8 +52,15 @@
 - 建立本地分支和远程分支的关联，使用`git branch --set-upstream branch-name origin/branch-name`；
 - 从远程抓取分支，使用`git pull`，如果有冲突，要先处理冲突
 
+11、当 `git push`的时候，本地的内容和远程库（服务器）的内容不一致时，会导致出错。
+
+​	*解决方案：* 同步远程库（服务器）的内容，保证本地代码和服务器代码版本一致。
+
+	- `$ git pull --rebase <Code SSH>`
+	- 再次上传代码
+
 
 
 ---
 
-> 以上学习内容参考-https://www.liaoxuefeng.com/wiki/896043488029600
+> 以上部分学习内容参考-https://www.liaoxuefeng.com/wiki/896043488029600
