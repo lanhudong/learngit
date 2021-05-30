@@ -51,6 +51,7 @@
 - 查看标签：`git tag`
 - 删除标签：`git tag -d <tagname>`
 - 命令`git tag -a <tagname> -m "blablabla..."`可以指定标签信息
+- 同步远程库标签：`git push <远程库名> <本地库名> --tags`
 
 **11、多人协作：**
 
