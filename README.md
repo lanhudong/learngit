@@ -49,6 +49,7 @@
 
 - 添加标签：`git tag <tagname>` 例如 `git tag v1`，默认为`HEAD`，也可以指定一个commit id 添加
 - 查看标签：`git tag`
+- 删除标签：`git tag -d <tagname>`
 - 命令`git tag -a <tagname> -m "blablabla..."`可以指定标签信息
 
 **11、多人协作：**
