@@ -115,6 +115,12 @@
 
 按照上面四个步骤做完之后，就可以关联推送内容到github啦。
 
+> 在新版 Git 中可以用 `git remote rename` 命令修改某个远程仓库在本地的简称，比如想把 `aa` 改成`bb`，可以这么运行：
+>
+> ```ruby
+> $ git remote rename aa bb
+> ```
+
 
 
 
